@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Владислав Головин](https://up.htmlacademy.ru/adaptive/18/user/1123543).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Савотиков](https://htmlacademy.ru/profile/id98316).
 
 ---
 
