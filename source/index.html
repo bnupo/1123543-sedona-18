@@ -3,10 +3,100 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <div class="page">
+      <header class="header">
+        <img class="header__logo" src="img/logotype-tablet-svg.svg" alt="Логотип города «SEDONA»">
+        <img class="header__menu" src="img/icon-menu-svg.svg" alt="Открыть навигацию">
+        <nav class="nav">
+          <img class="nav__cross" src="img/icon-cross.svg" alt="Закрыть навигацию">
+          <ul class="nav__column">
+            <li class="nav__item"><a class="nav__link" href="#">Главная</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Фото и видео</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Форма отзыва</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">HTML academy</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="intro">
+            <img class="intro__text-image" src="/img/text-index-svg.png" alt="Welcome «SEDONA»">
+        </div>
+        <section class="features">
+          <h2 class="features__title">Седона - небольшой городок в аризоне, залуживающий большего!</h2>
+          <p class="features__subtitle">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        </section>
+        <section class="feature">
+          <div class="feature__text-card">
+            <h2 class="feature__title">Настоящий городок</h2>
+            <span class="feature__number number--text">- №1 -</span>
+            <p class="feature__description">Седона - не аттракцион для туристов, тым течет своя жизнь</p>
+          </div>
+          <img class="feature__image" src="img/photo-city-1-x.png" alt="Седона">
+        </section>
+        <section class="details">
+          <article class="details-section__card details-card">
+            <img class="details-card__icon" src="img/icon-house-svg.svg" alt="Жилье">
+            <h3 class="details-card__title">Жилье</h3>
+            <p class="details__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </article>
+          <article class="details-section__card details-card">
+            <img class="details__icon" src="img/icon-burger-svg.svg" alt="Еда">
+            <h3 class="details__title">Еда</h3>
+            <p class="details__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </article>
+          <article class="details-section__card details-card">
+            <img class="details__icon" src="img/icon-gift-svg.svg" alt="Сувениры">
+            <h3 class="details__title">Сувениры</h3>
+            <p class="details__description">Не только китайского, но и местного производства!</p>
+          </article>
+        </section>
+        <section class="feature">
+          <img class="feature__image" src="img/photo-bridge-1-x.png" alt="Мост дьявола">
+          <div class="feature__text-card">
+            <h2 class="feature__title">Там есть мост дьявола</h2>
+            <span class="feature__number number--text">- №2 -</span>
+            <p class="feature__description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </div>
+        </section>
+        <section class="advantages">
+          <article class="advantages__text-card text-card">
+              <h2 class="text-card__title">Небольшая площадь</h2>
+              <span class="text-card__number number--text">- №3 -</span>
+              <p class="text-card__description">Все достопримечательности находятся очень близко</p>
+          </article>
+          <article class="advantages__text-card text-card">
+              <h2 class="text-card__title">Красивая дорога</h2>
+              <span class="text-card__number number--text">- №4 -</span>
+              <p class="text-card__description">Ехать в седону из лас вегаса совсем не скучно!</p>
+          </article>
+          <article class="advantages__text-card text-card">
+              <h2 class="text-card__title">Мало туристов</h2>
+              <span class="text-card__number number--text">- №5 -</span>
+              <p class="text-card__description">Большинство едет в гранд каньон и толпится там</p>
+          </article>
+        </section>
+        <section class="hotels-search">
+          <h2 class="hotels-search__title hotels-search__title-big">Заинтересовались?</h2>
+          <p class="hotels-search__subtitle hotels-search__subtitle-limited">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        </section>
+        <footer class="footer">
+            <span class="footer__hashtag">#visitsedona</span>
+            <div class="footer__social-container">
+              <ul class="footer-social">
+                <li class="footer-social__item"><a href="#" class="footer-social__link"></a></li>
+                <li class="footer-social__item"><a href="#" class="footer-social__link"></a></li>
+                <li class="footer-social__item"><a href="#" class="footer-social__link"></a></li>
+              </ul>
+            </div>
+            <div class="footer__logo" href="https://up.htmlacademy.ru/adaptive/18">
+              <span class="footer__logo-text">Разработано</span>
+              <img class="footer__logo-image" src="img/htmlacademy-svg.svg" alt="Логотип HTMLAcademy">
+            </div>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
