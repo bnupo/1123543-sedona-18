@@ -20,6 +20,77 @@
           </ul>
         </nav>
       </header>
+      <main>
+        <section class="intro">
+          <h2 class="intro__title">Оставьте свой отзыв</h2>
+          <p class="intro__subtitle">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        </section>
+        <div class="form">
+          <form action="" method="post">
+            <h2 class="form__title">Представьтесь</h2>
+            <p>
+              <label for="form-name">Имя*:</label>
+              <input id="form-name" type="text" name="form_name" placeholder="Петр">
+            </p>
+            <p>
+              <label for="form-surname">Фамилия*:</label>
+              <input id="form-surname" type="text" name="form_surname" placeholder="Иванов">
+            </p>
+            <p>
+              <label for="form-patronymic">Отчество:</label>
+              <input id="form-patronymic" type="text" name="form_patronymic" placeholder="Александрович">
+            </p>
+            <h2 class="form__title">Контактная информация</h2>
+            <p>
+              <label for="form-number">Контактный телефон*:</label>
+              <input id="form-number" type="number" name="form_number" placeholder="Введите телефон">
+              <img class="form__phone-icon" src="">
+            </p>
+            <p>
+              <label for="form-mail">Электронная почта*:</label>
+              <input id="form-mail" type="text" name="form_mail" placeholder="Введите e-mail">
+              <img class="form__mail-icon" src="">
+            </p>
+            <h2 class="form__title">Ваше общее впечатление:</h2>
+            <ul class="form__ckeckbox-review">
+              <li>
+                <input id="review-plus" type="checkbox" name="review_plus" checked>
+                <label  for="review-plus">Скорее положительное</label>
+              </li>
+              <li>
+                <input id="review-minus" type="checkbox" name="review_minus">
+                <label  for="review-minus">Скорее отрицательное</label>
+              </li>
+              <li>
+                <input id="review-neutral" type="checkbox" name="review_neutral">
+                <label  for="review-neutral">Затрудняюсь ответить</label>
+              </li>
+            </ul>
+            <h2 class="form__title">Посещаемые достопримечательности:</h2>
+            <ul class="form__ckeckbox-landmark">
+              <li>
+                <input id="landmark-devil" type="checkbox" name="landmark_devil" checked>
+                <label  for="landmark-devil">Мост дьявола</label>
+              </li>
+              <li>
+                <input id="landmark-bell" type="checkbox" name="landmark_bell" checked>
+                <label  for="landmark-bell">Гора-Колокол</label>
+              </li>
+              <li>
+                <input id="landmark-park" type="checkbox" name="landmark_park" checked>
+                <label  for="landmark-park">Слайд-парк</label>
+              </li>
+              <li>
+                <input id="landmark-crag" type="checkbox" name="landmark_crag">
+                <label  for="landmark-crag">Красные скалы</label>
+              </li>
+            </ul>
+            <h2 class="form__title">Опишите свои эмоции:</h2>
+            <input id="" type="text" name="" placeholder="Опишите подробно все свои восторги">
+            <button class="form-button" type="submit">Отправить отзыв</button>
+          </form>
+        </div>
+      </main>
       <footer class="footer">
         <span class="footer__hashtag">#visitsedona</span>
         <div class="footer__social-container">
